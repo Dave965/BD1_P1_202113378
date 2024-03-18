@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="950C3EE3-0E8D-A33B-0BA7-C4E22119E2E2" name="Clientes">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>20D24E1B-8227-9A89-2AD0-558685FEBFA3</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="27AB29D6-3DA5-2104-C565-1FE0BD443D4C">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>CF5A42A0-4536-AA71-FCD0-0D38DBABEB1D</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paises_id_pais" id="CBC927C1-F29C-C758-8642-1BB84A7A2B88">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>4AD32C70-B332-86ED-D0B5-D638FF669C58</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B53461D4-4BB3-67A0-2646-AE9BD333A380" referredColumn="A32E04BD-28F9-4E61-F53A-196ACEDE3476"/>
+</associations>
+</Column>
+<Column name="Nombre" id="47BEB151-8A70-4238-9951-97E97D3426E3">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>1DFCEA1D-9746-A68E-459F-022F465FD6E7</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="04E8F47A-DD3A-0171-D76C-9769EE69D053">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>D948C4F7-74D9-886C-B583-BF009E69E0B4</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="88C9A7D3-818B-06B4-DA86-318EB8B24497">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>A8414F11-77C7-AEB9-5D52-38A5357B1C97</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tarjeta" id="D3177211-373E-2058-A895-B46BABF6EEC1">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>60A8D062-518D-20A5-A072-8E0AAF657E9A</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Edad" id="F2C31E95-DF01-E3E0-C77A-94D8D6ED74DD">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>DEB86D8D-C29F-CB07-1579-4B8F143C95F4</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="F1B40CA9-76E4-2C54-63F3-4BB13714E67B">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>27E09A7A-3CBC-DDD7-DD11-8909A2AD6F0C</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero" id="DDFEC379-14FE-22A8-81FD-08DF48E2451D">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>916CE38D-A522-1D49-CB18-F719BD0AE088</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="673793DE-B4D8-2765-5C71-CC698A381C2A" name="Clientes_PK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>C765E037-0396-4FB3-E17A-19280157ED3A</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27AB29D6-3DA5-2104-C565-1FE0BD443D4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FBFDD26-CE38-149C-29BB-419BD3E205E9" name="Clientes_Paises_FK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>EA98EA79-6524-EC7E-3926-A3E8D79CDCAF</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC927C1-F29C-C758-8642-1BB84A7A2B88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

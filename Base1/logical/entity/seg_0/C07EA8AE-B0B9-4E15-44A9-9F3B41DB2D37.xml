@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C07EA8AE-B0B9-4E15-44A9-9F3B41DB2D37" name="Ordenes">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 04:48:37 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_orden" id="89918F6F-88AF-009A-9385-E3DF882D11E2">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:04:51 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_orden" id="60880ECA-0D41-8E65-C3C9-E43EBC5D7E0B">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:05:40 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="A31586E4-18B1-D3A5-8506-ED23455482CA">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:25:33 UTC</createdTime>
+<generatorID>A02F1EDB-43E8-0F01-3EFB-963FE5AE3355</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<referedAttribute>CF5A42A0-4536-AA71-FCD0-0D38DBABEB1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="F94BEB9D-C10C-CD24-5993-E5D909ABF5A5">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:27:24 UTC</createdTime>
+<generatorID>72B29BB5-045F-17CB-56C6-6E1E935E2CD9</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<referedAttribute>931F7E3A-0BF3-E68A-0CB6-56119EE5943A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73631DE3-6731-1CDE-7F16-0156CCEE7E23" name="Ordenes PK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:07:13 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89918F6F-88AF-009A-9385-E3DF882D11E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

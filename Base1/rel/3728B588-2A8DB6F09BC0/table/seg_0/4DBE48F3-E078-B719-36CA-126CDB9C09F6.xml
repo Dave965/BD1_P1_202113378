@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DBE48F3-E078-B719-36CA-126CDB9C09F6" name="detalle_orden">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>F81465BE-F1F7-2BD6-AF8A-DD278F6271E9</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Orden" id="3189047A-A11F-C226-982F-092477F1C7C3">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>60636866-62FF-BB5F-51BF-336B04F6228A</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Linea_Orden" id="A050A27F-FCA1-2D8F-72DB-0FC807943A6E">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>E08F27B6-5849-FD35-78C9-448D5EF192FA</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ordenes_id_orden" id="F96FB13D-7D8E-C7C0-1E38-90C4D1EC6368">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>5F56F941-9596-D84E-1BFD-F9CAB841C9D1</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7311AE8B-2832-BA2D-5783-116063453E05" referredColumn="5724EE04-B9C7-E8DB-B606-EF124DAE4072"/>
+</associations>
+</Column>
+<Column name="Vendedores_id_vendedor" id="39A32EC2-3A05-3F07-45C0-C6ED19AD6869">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>72869225-F819-CF07-177E-3682DD3B25DA</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="805C8669-B029-CF8A-442A-ADA8289A281D" referredColumn="5D180630-DA0F-2F0D-3F3A-E9C8D3722C6D"/>
+</associations>
+</Column>
+<Column name="cantidad" id="7BFE8705-B7DE-2CF9-F243-8FDF9C37946B">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>FF19283F-3E53-BBA0-041D-BB7127B46D59</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_producto" id="951ED7A3-7EBB-AAE4-E0F3-E5615DDBBAB0">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 01:02:05 UTC</createdTime>
+<generatorID>252EBE32-3173-C825-A5FF-A61B0D025598</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAC0193C-1836-DF85-572B-657B6A844F38" name="detalle_orden_PK">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>098F5839-8897-A35F-F5F2-AE1D2FF695B7</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3189047A-A11F-C226-982F-092477F1C7C3"/>
+<colUsage columnID="A050A27F-FCA1-2D8F-72DB-0FC807943A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96557FD0-7A78-201A-2EE0-6932AA9D5B26" name="detalle_orden_Ordenes_FK">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>DB552FFC-F7FC-017D-8671-6C6B808F9451</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F96FB13D-7D8E-C7C0-1E38-90C4D1EC6368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18E9B5D8-F9FB-43DA-B394-F5EDBC1F69E3" name="detalle_orden_Vendedores_FK">
+<createdBy>andye</createdBy>
+<createdTime>2024-03-14 00:59:01 UTC</createdTime>
+<generatorID>E6EAB9D3-86C2-FFB6-673F-CA8ACBD40021</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39A32EC2-3A05-3F07-45C0-C6ED19AD6869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

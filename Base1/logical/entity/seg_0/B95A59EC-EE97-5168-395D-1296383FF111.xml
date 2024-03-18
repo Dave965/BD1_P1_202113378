@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B95A59EC-EE97-5168-395D-1296383FF111" name="Paises">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 04:48:17 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pais" id="D1D240E5-FB8A-692A-1270-0B1F97E4E102">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:09:54 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BA0A8F3B-EE6F-C421-E5EE-E7B9D0E97017">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:10:08 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1170A2A-5E77-7D7F-AB43-F040D43FF21E" name="Paises PK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:10:06 UTC</createdTime>
+<ownerDesignName>Base1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3728B588-1580-5E0E-D612-2A8DB6F09BC0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1D240E5-FB8A-692A-1270-0B1F97E4E102</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

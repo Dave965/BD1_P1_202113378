@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6454734-7D37-EF17-1C2D-FF154BE702BB" name="Producto">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>565327A5-D991-C256-054C-0ECB242BD965</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="258B4799-C283-AF21-6FA9-BF522A06DA09">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>931F7E3A-0BF3-E68A-0CB6-56119EE5943A</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4B61113B-A67B-7EA0-269E-08F27570B642">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>6F2013E1-D57D-6269-C917-EFEC54A17DF3</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto" id="8F15A9D1-68E4-A7FC-1B1D-BF4307BFA9C4">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>851C50FD-C53A-B6F7-49D4-A64F74EF09F8</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_id_categoria" id="3B7FCE95-76DD-B1CE-0818-AACE84E30D0D">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>DA4BE4D9-C9E3-CB95-6BC3-8E7A5CC6DD25</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C78A9D6-44BA-E4CD-608A-23AC9E6215A9" referredColumn="B03E239E-1336-6BDC-C783-F3A710161B99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD03B134-2C68-D9FC-0F29-140B4154F7EF" name="Producto_PK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>379A2C94-D9EA-E15A-C2B3-5FFA429EADC1</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="258B4799-C283-AF21-6FA9-BF522A06DA09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17C5A356-4D8A-538F-D917-70BDDFDAE128" name="Producto_Categoria_FK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>931AE899-2CCF-F42D-9967-60B77BA8FA81</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B7FCE95-76DD-B1CE-0818-AACE84E30D0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

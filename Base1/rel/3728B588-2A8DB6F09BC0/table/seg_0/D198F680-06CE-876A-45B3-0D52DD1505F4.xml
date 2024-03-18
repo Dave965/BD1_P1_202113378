@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D198F680-06CE-876A-45B3-0D52DD1505F4" name="Ordenes">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>C07EA8AE-B0B9-4E15-44A9-9F3B41DB2D37</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="5724EE04-B9C7-E8DB-B606-EF124DAE4072">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>89918F6F-88AF-009A-9385-E3DF882D11E2</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="linea_orden" id="35FDF490-DE7B-8B60-EEF3-2844B4984FA7">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>5741FEF7-EA26-1B2B-8BE5-D0CD971493EF</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_orden" id="49BB0019-971D-6D21-2169-DD8D66464443">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>60880ECA-0D41-8E65-C3C9-E43EBC5D7E0B</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="56066D42-7FD1-CB48-C340-27279DF710A7">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>601FE17C-9E45-E1F3-1E50-84C584208835</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedores_id_vendedor" id="A9FCDFE3-8A64-A6D6-CA6F-C5878B46E320">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>840B6621-A07B-5642-FB05-552875DEB7BE</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_id_cliente" id="7A270DEA-8397-5B1F-3BAD-09E4C95FC7BD">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>A31586E4-18B1-D3A5-8506-ED23455482CA</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81D9802C-768B-A683-060E-EED48718362A" referredColumn="27AB29D6-3DA5-2104-C565-1FE0BD443D4C"/>
+</associations>
+</Column>
+<Column name="Producto_id_producto" id="409FEB25-486E-B479-17A7-AE1E8F1D08B2">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>F94BEB9D-C10C-CD24-5993-E5D909ABF5A5</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9BA1781-1EF8-F336-B8E3-A18DC41A9C0A" referredColumn="258B4799-C283-AF21-6FA9-BF522A06DA09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F31467BA-BF14-AFA2-CA73-BB62894A414C" name="Ordenes_PK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>73631DE3-6731-1CDE-7F16-0156CCEE7E23</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5724EE04-B9C7-E8DB-B606-EF124DAE4072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B760934-D304-25CE-D968-43D9315F9DD1" name="Ordenes_Producto_FK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>72B29BB5-045F-17CB-56C6-6E1E935E2CD9</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="409FEB25-486E-B479-17A7-AE1E8F1D08B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C8A1903-542E-5EBD-4363-C9DC8B4F392C" name="Ordenes_Clientes_FK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>A02F1EDB-43E8-0F01-3EFB-963FE5AE3355</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A270DEA-8397-5B1F-3BAD-09E4C95FC7BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

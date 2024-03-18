@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A344B54-73EC-ED15-660A-70023B1575BE" name="Vendedores">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>89A64DA5-A474-ED01-39AD-3452F2D855D2</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vendedor" id="5D180630-DA0F-2F0D-3F3A-E9C8D3722C6D">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>C0ECF093-76F0-7291-6577-B3AA1320C7BA</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paises_id_pais" id="6597C44E-E7BE-05C0-2B33-9EE772D27C18">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>EC933433-C8E2-AEA9-41BF-B09F5A22C7B0</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD87373F-D8C6-55AA-229F-CB2C4027CBF3" referredColumn="A32E04BD-28F9-4E61-F53A-196ACEDE3476"/>
+</associations>
+</Column>
+<Column name="nombre" id="4980811A-5823-FDA3-BA90-4D17C4FA43FB">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>B3ABEEAE-202A-F19B-BFB2-8CF797FCF039</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22074E4D-7BF1-9254-A0B7-0740BE3ACB45" name="Vendedores_PK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>54665EFF-67FC-5CDC-3330-BCA7C051A656</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D180630-DA0F-2F0D-3F3A-E9C8D3722C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B564E39-C885-E9CD-3963-BFF041313122" name="Vendedores_Paises_FK">
+<createdBy>andye</createdBy>
+<createdTime>2024-02-26 05:36:48 UTC</createdTime>
+<generatorID>A9C7A749-2C53-2B23-E153-4A573E4EDB8D</generatorID>
+<ownerDesignName>Base1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6597C44E-E7BE-05C0-2B33-9EE772D27C18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
